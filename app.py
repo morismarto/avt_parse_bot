@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher
 from aiogram.methods.delete_webhook import DeleteWebhook
 from src.handlers import router
-from config import TOKEN
+from data.config import TOKEN
 import asyncio
 import logging
 import sys
